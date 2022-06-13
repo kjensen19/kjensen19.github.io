@@ -38,7 +38,7 @@ html, body {
   }
   #navbar li {
     list-style: none;
-    border-top: 1px solid;
+    border-bottom: 1px solid;
     position: relative;
     width: 100%;
     border-color: orangered;
@@ -86,6 +86,7 @@ html, body {
       font-weight: bold;
       text-align: center;
       padding-top: 1rem;
+      border-bottom: 1px solid orangered;
 
   }
   
