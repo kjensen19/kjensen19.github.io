@@ -102,6 +102,11 @@ html, body {
   .ed{
     margin: auto;
   }
+
+  .ed1{
+    margin: auto;
+    padding-bottom: 1rem
+  }
   h4{
     margin: auto;
     padding-top: 1rem;
