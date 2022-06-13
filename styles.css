@@ -85,7 +85,7 @@ html, body {
   .nav-header{
       font-weight: bold;
       text-align: center;
-      padding-top: 1rem;
+      padding: 1rem 0 1rem 0;
       border-bottom: 1px solid orangered;
 
   }
