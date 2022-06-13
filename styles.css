@@ -2,7 +2,7 @@ html, body {
     min-width: 290px;
     line-height: 1.5;
     background-color: rgb(20, 30, 40);
-    color: linen
+    color: linen;
   }
   
   #navbar {
@@ -22,6 +22,10 @@ html, body {
     margin-bottom: 110px;
   }
   
+  p{
+    margin:1rem;
+  }
+
   section header {
     font-weight: bold;
     border-bottom: solid;
@@ -35,6 +39,7 @@ html, body {
     overflow-y: auto;
     overflow-x: hidden;
     height: 88%;
+    margin-top: 0;
   }
   #navbar li {
     list-style: none;
@@ -64,6 +69,7 @@ html, body {
     border: groove;
     border-color: orangered;
     border-radius: 3rem;
+    margin-bottom: 1rem;
   }
 
   .social-icons {
@@ -80,13 +86,14 @@ html, body {
   }
 
   a:hover, a:active, a:focus {
-      color: #2c87f0
+      color: #2c87f0;
   }
   .nav-header{
       font-weight: bold;
       text-align: center;
       padding: 1rem 0 1rem 0;
       border-bottom: 1px solid orangered;
+      font-size: 1.5rem;
 
   }
   
