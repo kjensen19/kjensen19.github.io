@@ -82,6 +82,11 @@ html, body {
   a:hover, a:active, a:focus {
       color: #2c87f0
   }
+  .nav-header{
+      font-weight: bold;
+      text-align: center;
+      
+  }
   
   @media only screen and (max-width: 815px) {
     /* For mobile phones: */
