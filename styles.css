@@ -13,6 +13,7 @@ html, body {
     width: 300px;
     height: 100%;
     min-width: 290px;
+    border-color: orangered;
   }
   #main-doc {
     position: absolute;
@@ -25,6 +26,7 @@ html, body {
     font-weight: bold;
     border-bottom: solid;
     text-align: left;
+    border-color: orangered;
   
   }
   
@@ -39,7 +41,8 @@ html, body {
     border-top: 1px solid;
     position: relative;
     width: 100%;
-  }
+    border-color: orangered;
+}
   #navbar a {
     display: block;
     padding: 10px 30px;
@@ -52,21 +55,23 @@ html, body {
   
   div {
     padding: 15px;
-    border-top: double 8px
+    border-top: double 8px;
+    border-color: orangered;
   }
   .name {
     font-weight: bold;
     text-align: center;
     border: groove;
-    border-color: red;
+    border-color: orangered;
+    border-radius: 3rem;
   }
 
   .social-icons {
     display: grid;
-    font-size: 3rem;
-    grid-template-columns: repeat(5, 1fr);
+    font-size: 2.5rem;
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-flow: column;
-    grid-auto-columns: 2fr;
+    grid-auto-columns: 1fr;
     align-items: stretch center;
   }
   
@@ -83,6 +88,7 @@ html, body {
     #navbar ul {
       border: 1px solid;
       height: 207px;
+      border-color: orangered;
     }
   
     #navbar {
@@ -96,6 +102,7 @@ html, body {
       border: none;
       z-index: 1;
       border-bottom: 2px solid;
+      border-color: orangered;
     }
   
     #main-doc {
